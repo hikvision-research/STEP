@@ -31,11 +31,6 @@ Install core dependencies:
 pip install -r requirement.txt
 ```
 
-**Note**: `flash_attn` requires compilation from source:
-```bash
-pip install flash-attn --no-build-isolation
-```
-
 ### 3. Install lm-evaluation-harness
 
 For model evaluation, install [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness):
