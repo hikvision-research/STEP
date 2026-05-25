@@ -81,16 +81,6 @@ wget https://huggingface.co/datasets/theblackcat102/evol-codealpaca-v1/resolve/m
 
 Or download manually from [theblackcat102/evol-codealpaca-v1](https://huggingface.co/datasets/theblackcat102/evol-codealpaca-v1).
 
-### Quick Start with Sample Data
-
-We provide small sample data in `calib_data/` for quick testing. To use them directly:
-
-```bash
-# Samples are already included in the repository
-ls calib_data/c4/
-ls calib_data/evol-alpaca/
-```
-
 ### Custom Dataset Path
 
 To use a custom calibration dataset, modify `step/minipile.py`:
