@@ -1,0 +1,32 @@
+# ===== Core Deep Learning Frameworks =====
+torch==2.3.1
+torchvision==0.18.1
+transformers==4.55.3
+accelerate==1.5.2
+
+# ===== Evaluation Tools =====
+lm_eval==0.3.0
+
+# ===== Data Processing =====
+datasets==2.20.0
+huggingface-hub==0.29.3
+tokenizers==0.21.1
+tiktoken==0.9.0
+
+# ===== Scientific Computing =====
+numpy==1.23.0
+pandas==2.2.2
+scipy==1.13.1
+scikit-learn==1.6.1
+
+# ===== Utilities =====
+tqdm==4.67.1
+safetensors==0.5.3
+pyyaml==6.0.2
+regex==2024.11.6
+omegaconf==2.3.0
+easydict==1.13
+
+# Notes:
+# 1. flash_attn requires compilation from source: pip install flash-attn --no-build-isolation
+# 2. Adjust torch and triton versions if your CUDA version differs
